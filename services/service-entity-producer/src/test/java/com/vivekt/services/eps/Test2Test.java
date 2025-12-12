@@ -12,7 +12,6 @@ public class Test2Test {
 
     @Test
     void test1(){
-        // Arrange and Act
 
         //Assert
         Assertions.assertThat(1).isBetween(0,2);
