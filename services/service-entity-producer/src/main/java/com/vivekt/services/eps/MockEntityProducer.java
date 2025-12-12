@@ -11,11 +11,11 @@ public class MockEntityProducer implements EntityProducer{
     @Override
     public void start() {
 
-        while(true){
+        for(int i=0; i<10; i++){
             EPSOrder order = createDummyOrder();
             System.out.println("Order produced.. "  + order);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
