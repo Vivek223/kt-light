@@ -1,1 +1,5 @@
 business requirements go here
+
+<br3>
+create a services folder and write a sample service for entity producer
+</br3>
