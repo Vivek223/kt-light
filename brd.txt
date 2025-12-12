@@ -1,5 +1,9 @@
 business requirements go here
 
+<br4>
+write an interface & mock impl for entity producer
+</br4>
+
 <br3>
 create a services folder and write a sample service for entity producer
 </br3>
