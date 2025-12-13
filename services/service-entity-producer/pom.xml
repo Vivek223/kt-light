@@ -49,6 +49,12 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <!-- trading data model-->
+        <dependency>
+            <groupId>com.vivekt</groupId>
+            <artifactId>trading-model</artifactId>
+            <version>1.0.2</version>
+        </dependency>
 
         <!-- Unit Testing -->
         <dependency>
