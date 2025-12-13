@@ -1,0 +1,15 @@
+CREATE
+ curl -X POST http://localhost:8080/users \
+ -H "Content-Type: application/json" \
+ -d '{"name":"Vivek","email":"aditi@example.com"}'
+
+GET ALL
+curl http://localhost:8080/users
+
+UPDATE
+curl -X PUT http://localhost:8080/users/1 \
+ -H "Content-Type: application/json" \
+ -d '{"name":"Updated Vivek","email":"vivek@gmail.com"}'
+
+DELETE
+curl -X DELETE http://localhost:8080/users/1
